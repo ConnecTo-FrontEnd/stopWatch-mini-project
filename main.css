@@ -1,0 +1,22 @@
+body {
+  background: #2E3440;
+  color: #E5E9F0;
+  font-family: 'Droid Sans Mono', monospace;
+  text-align: center;
+}
+
+.timer {
+  font-family: Droid Sans Mono, monospace;
+  font-size: 28px;
+}
+.timer__start, .timer__stop, .timer__lap {
+  border-radius: 50%;
+    font-weight: 600;
+    height: 5em;
+    width: 5em;
+    text-transform: uppercase;
+    background: #2E3440;
+    border: none;
+    box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #2E3440;
+    color: white;
+}
