@@ -20,3 +20,34 @@ body {
     box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #2E3440;
     color: white;
 }
+
+.timer__start {
+  background: #88C0D0;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #88C0D0;
+}
+.timer__stop {
+  background: #EBCB8B;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #EBCB8B;
+}
+
+.timer_lap {
+  background: #B48EAD;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #B48EAD;
+}
+
+.timer__reset, .timer_lap-clear {
+  background: #D08770;
+  background: transparent;
+  border: none;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.4em 1em;
+}
+
+.timer__lap-list {
+  list-style: none;
+  margin: 1em auto;
+  padding: 0;
+}
+ 
