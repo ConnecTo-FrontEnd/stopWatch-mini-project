@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+  </head>
+  <body>
+    <p class="timer">
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>.<span id="tens">00</span>
+    </p>
+    <button class="timer__start" id="start">Start</button>
+    <button class="timer__stop" id="stop">Stop/Resume</button>
+    <button class="timer__reset" id="reset">Reset</button>
+    <button class="timer__lap" id="lap">Lap</button>
+    <ul class="timer__laps-list" id="laps"></ul>
+    <button class="timer__laps-clear" id="clear">Clear Laps</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
